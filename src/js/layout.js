@@ -9,6 +9,7 @@ import injectContext from "./store/appContext";
 
 import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
+import { Header } from "./component/header";
 
 //create your first component
 export const Layout = () => {
@@ -20,6 +21,7 @@ export const Layout = () => {
 		<div className="d-flex flex-column h-100">
 			<BrowserRouter>
 				<ScrollToTop>
+					<Header />
 					<Navbar />
 					<Switch>
 						<Route exact path="/" component={Home} />

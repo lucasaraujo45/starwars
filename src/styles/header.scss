@@ -1,0 +1,150 @@
+.header{
+    box-sizing: border-box;
+  margin: 0 auto;
+  max-height: 134px;
+  max-width: 1400px;
+  padding: 20px 0;
+  position: relative;
+}
+
+.header-area{
+    background-color: #000;
+  border-bottom-style: none;
+  box-shadow: none;
+  height: 134px;
+  left: 0;
+  max-height: 134px;
+  position: relative;
+  text-align: center;
+  top: 0;
+  transition: background-color 200ms;
+  width: 100%;
+  z-index: -1;
+}
+
+.left-header{
+    background-color: transparent;
+  background-image: linear-gradient(to right,#000 0%,rgba(0,0,0,.9) 15%,rgba(0,0,0,.8) 27%,rgba(0,0,0,.5) 50%,rgba(0,0,0,.15) 75%,transparent 100%);
+  height: 100%;
+  left: 0;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  transition: opacity 450ms ease-out;
+  width: 200px;
+}
+
+.header-wrapper{
+    box-sizing: border-box;
+  margin: 0 auto;
+  max-height: 134px;
+  max-width: 1400px;
+  padding: 20px 0;
+  position: relative;
+}
+
+.social-area{
+    box-sizing: border-box;
+  display: inline-flex;
+  left: 0;
+  min-width: 400px;
+  opacity: 1;
+  padding: 0 0 20px 20px;
+  position: absolute;
+  text-align: left;
+  top: 20px;
+  vertical-align: middle;
+  width: auto;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+.social{
+color: #aaa;
+  display: inline-flex;
+  font-family: "DIN Next W01 Regular",Helvetica,Arial,sans-serif;
+  font-size: 0;
+  list-style: none;
+  margin: 10px 10px 10px 10px;
+  padding: 3px;
+  vertical-align: middle;
+  width: auto;
+}
+.facebook-span{
+    -webkit-mask-image: url(https://static-mh.content.disney.io/starwars/assets/shared/icon_facebook-aec3b685b1a1.svg);
+  -webkit-mask-position-x: 50%;
+  -webkit-mask-position-y: 50%;
+  -webkit-mask-repeat-x: no-repeat;
+  -webkit-mask-repeat-y: no-repeat;
+  background-color: #999;
+  display: block;
+  height: 20px;
+  transition: background-color 350ms;
+  width: 20px;
+}
+
+.instagram-span{
+    -webkit-mask-image: url(https://static-mh.content.disney.io/starwars/assets/shared/icon_instagram-be8807d03d5f.svg);
+  -webkit-mask-position-x: 50%;
+  -webkit-mask-position-y: 50%;
+  -webkit-mask-repeat-x: no-repeat;
+  -webkit-mask-repeat-y: no-repeat;
+  background-color: #999;
+  display: block;
+  height: 20px;
+  transition: background-color 350ms;
+  width: 20px;
+}
+.tumblr-span{
+    -webkit-mask-image: url(https://static-mh.content.disney.io/starwars/assets/shared/icon_tumblr-9dbf2f5872a3.svg);
+  -webkit-mask-position-x: 50%;
+  -webkit-mask-position-y: 50%;
+  -webkit-mask-repeat-x: no-repeat;
+  -webkit-mask-repeat-y: no-repeat;
+  background-color: #999;
+  display: block;
+  height: 20px;
+  transition: background-color 350ms;
+  width: 12px;
+}
+.twitter-span{
+    -webkit-mask-image: url(https://static-mh.content.disney.io/starwars/assets/shared/icon_twitter-bde9a7f5abaa.svg);
+  -webkit-mask-position-x: 50%;
+  -webkit-mask-position-y: 50%;
+  -webkit-mask-repeat-x: no-repeat;
+  -webkit-mask-repeat-y: no-repeat;
+  background-color: #999;
+  display: block;
+  height: 19px;
+  transition: background-color 350ms;
+  width: 23px;
+}
+.youtube-span{-webkit-mask-image: url(https://static-mh.content.disney.io/starwars/assets/shared/icon_twitter-bde9a7f5abaa.svg);
+  -webkit-mask-position-x: 50%;
+  -webkit-mask-position-y: 50%;
+  -webkit-mask-repeat-x: no-repeat;
+  -webkit-mask-repeat-y: no-repeat;
+  background-color: #999;
+  display: block;
+  height: 19px;
+  transition: background-color 350ms;
+  width: 23px;}
+
+.sw-a{
+background-image: url(https://i.imgur.com/5ZvtHwm.pngg);
+  background-position: center center;
+  background-repeat: no-repeat no-repeat;
+  background-size: contain;
+  box-sizing: border-box;
+  color: #ebd800;
+  display: block;
+  height: 100%;
+  margin: -44px auto 0;
+  max-height: 88px;
+  max-width: 203px;
+  position: relative;
+  text-decoration: none;
+  top: 50%;
+  transition: color 125ms;
+  width: 100%;
+  z-index: -1;
+}
