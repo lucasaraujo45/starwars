@@ -9,14 +9,7 @@
 $ npm install
 ```
 
-## Start coding!
-Start the webpack server with live reload:
-`$ npm run start` for windows, mac, linux or Gitpod.
 
-### Styles
-You can update the `styles/index.scss` or create new `.scss` files inside `styles/` and import them into your current scss or js files depending on your needs.
-
-### Components
 Add more files into your `./src/js/components` or styles folder as you need them and import them into your current files as needed.
 
 **Note (New changes)**: Components have been converted into functions to support the use of hooks:
