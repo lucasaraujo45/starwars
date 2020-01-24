@@ -7,25 +7,16 @@ export const Navbar = () => {
 			<div className="container">
 				<nav className="navbar mb-3">
 					<Link to="/">
-						<span className="navitem ">NEWS + BLOG</span>
+						<span className="navitem ">PEOPLE</span>
 					</Link>
 					<Link to="/demo">
-						<span className="navitem">VIDEO</span>
+						<span className="navitem">VEHICLES</span>
 					</Link>
 					<Link to="/demo">
-						<span className="navitem">FILMS</span>
+						<span className="navitem">SPECIES</span>
 					</Link>
 					<Link to="/demo">
-						<span className="navitem">SERIES</span>
-					</Link>
-					<Link to="/demo">
-						<span className="navitem">INTERACTIVE</span>
-					</Link>
-					<Link to="/demo">
-						<span className="navitem">COMMUNITY</span>
-					</Link>
-					<Link to="/demo">
-						<span className="navitem">DATABANK</span>
+						<span className="navitem">PLANETS</span>
 					</Link>
 				</nav>
 			</div>

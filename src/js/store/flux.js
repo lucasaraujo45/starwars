@@ -15,6 +15,18 @@ const getState = ({ getStore, getActions, setStore }) => {
 			]
 		},
 		actions: {
+			changeCard: item => {
+				//get the store
+				const store = getStore();
+
+				const demo = store.characters.map(item => {
+					return item;
+				});
+
+				//reset the global store
+				setStore({ demo: demo });
+			},
+
 			// Use getActions to call a function within a fuction
 			exampleFunction: () => {
 				getActions().changeColor(0, "green");
