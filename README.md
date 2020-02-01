@@ -1,5 +1,3 @@
-# WebApp boilerplate with React JS
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/react-hello-webapp.git)
 
 ### Requirements:
 - Make sure you are using node version 8
@@ -60,7 +58,7 @@ const MyComponentSuper = () => {
 
 ## Publish your website!
 This boilerplate is 100% compatible with the free github pages hosting.
-To publish your website you need to push your code to your github repository and run the following command after:
+un the following command after:
 ```sh
 $ npm run deploy
 ```
